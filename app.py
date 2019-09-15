@@ -19,6 +19,7 @@ from gevent.pywsgi import WSGIServer
 # Define a flask app
 app = Flask(__name__)
 
+#app.run(host='0.0.0.0' , port=5000)
 # Model saved with Keras model.save()
 MODEL_PATH = 'models/your_model.h5'
 
